@@ -5,10 +5,10 @@ Sentiment analysis refers to the class of computational and natural language pro
 The main objectif of this project is to analyse feelings and opinions through an amount of comments and reviews posted for some moroccan hotels (100 hotels), to do so we proceed:
 <ol>
 <li>We scrap an amount of 100 hotel links using Selenium</li>
-<li>For each hotel we scrap using Selenium a bunch of informations about the hotel (hotel name, hotel rank, localisation,	hotel link, phone number,	amenities,	room features,	room type	comments, comments rank and comments title)</li>
+<li>For each hotel we scrap using Selenium a bunch of informations about the hotel (hotel name, hotel rank, localisation,	hotel link, phone number,	amenities,	room features,	room type	comments, comments rank and comments title) <i>see the notebook scrapping.ipynb</i></li>
 
 <li>Pre-process the data collected</li>
-<li>Apply sentiment analysis techniques on the data</li>
+<li>Apply sentiment analysis techniques on the data <i>see sentiment_analyisis.ipynb</i></li>
 <li>Vizualisation and interpretations</li>
 </ol>
 
